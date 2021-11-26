@@ -9,7 +9,7 @@ const SpringkasteelSchema = new mongoose.Schema({
     maximumPersonen: {type: Number}
 
 }, {
-    collection: 'springkasteel'
+    collection: 'Springkasteel'
 });
 
 module.exports = mongoose.model('Springkasteel', SpringkasteelSchema);
